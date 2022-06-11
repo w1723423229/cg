@@ -1,0 +1,94 @@
+	li,ul{
+		list-style:none;
+		color:#ff0033;
+		display:inline-block;
+		}
+		.sideBar {
+		position:fixed;
+		right:-182px;
+		top:50px;
+		background-color:#ffffff;
+		border:#eea236 solid 1px;
+		transition:right 0.5s;
+		border:solid 1px red;
+	}
+	.sideBar:hover {
+		right:0;
+	}
+	.sideBar div {
+		position:relative;
+	}
+	.sideBar .tips {
+		position:absolute;
+		height:120px;
+		line-height:25px;
+		background-color:#eea236;
+		width:40px;
+		left:-40px;
+		top:50px;
+		text-align:center;
+		box-sizing:border-box;
+		padding:10px 10px;
+		border-top-left-radius:5px;
+		border-bottom-left-radius:5px;
+		font-weight:bold;
+		color:#ffffff;
+	}
+	.sideBar .list {
+		padding:0;
+		list-style:none;
+		width:180px;
+		margin:0;
+	}
+	.sideBar .list li {
+		padding:15px;
+		border-top:#eea236 dashed 1px;
+	}
+	.sideBar .list li:hover {
+		background-color:#f0ad4e;
+		color:#ffffff;
+	}
+	.sideBar .list li:first-child {
+		border-top:none;
+	 }	
+	.dhtop{
+		position:relative;
+		width:100%;
+		padding:8px 0 55px;
+		border-bottom:1px solid #f1f1f1;
+		
+		text-align:center; 
+		
+		
+	}
+	a{
+		text-decoration:none;
+		}	
+	.dhtopl{
+		float:left;
+	
+		}
+	.dhtopr{
+	
+		float:right;
+		}
+	.wrapper{
+		padding-left:150px;
+		
+		}
+	.wrapper a{
+		color:red;
+		padding: 0 10px;
+	}
+	.photo li{
+			padding-left:50px;
+		}
+	.serve div{
+		padding-left:200px;
+		display:inline-block;
+		float:left;
+	}
+	body{
+		background-color: #dbe9ea;
+		
+	}
